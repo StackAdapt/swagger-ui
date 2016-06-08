@@ -46,7 +46,7 @@
             if (url && url.length > 1) {
                 url = decodeURIComponent(url[1]);
             } else {
-                url = "http://www.stackadapt.com/service/v2/apidocs";
+                url = "http://192.168.50.4:3005/service/v2/apidocs";
             }
 
             window.swaggerUi = new SwaggerUi({
@@ -131,9 +131,9 @@
                 }
 
                 function i(n) {
-                    n.hasClass("fixed") || (navOffset = n.offset().top);
-                    e();
-                    $(window).scrollTop() > navOffset ? $(".modal.in").length || n.addClass("fixed") : n.removeClass("fixed")
+                    // n.hasClass("fixed") || (navOffset = n.offset().top);
+                    // e();
+                    // $(window).scrollTop() > navOffset ? $(".modal.in").length || n.addClass("fixed") : n.removeClass("fixed")
                 }
 
                 function r(e) {
