@@ -17430,3 +17430,9 @@ li.L9 {
         display: none;
     }
 }
+.campaign-link {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+}
